@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;;
+}
+#navbar{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:.5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background:black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color:#29f700 !important;
+}
+.logo{
+    width:50px;
+    height:50px;
+}
+.tile{
+    color:#ffffff;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:30px ;
+    text-shadow: 0px 1px 0px rgb(192, 190, 190),
+    0px 2px 0px rgb(163, 160, 160),
+    0px 3px 0px rgb(185, 183, 183),
+    0px 4px 0px rgb(230, 227, 227);
+}
+#nav a{
+    color:#fff;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+
+}
+#nav a:hover{
+    border-bottom:2px solid #29f700  ;
+    color:#f700ad;
+    font-size: 20px;
+    
+}
+#nav button{
+    background-color: #29f700;
+    width:5rem;
+    border-radius:15px;
+}
+section{
+    width:100;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Home */
+#home{
+    background-image:url(b.webp) ;
+    background-size:cover;
+    background-position: absolute;
+    flex-direction:column;
+    opacity:0.9;
+}
+.mylogo{
+    width:150px;
+    height: 150px;
+}
+#home h1{
+    font-weight: bold;
+    font-size: 70px;
+    color:rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px rgb(65, 63, 63),
+    0px 2px 0px rgb(212, 209, 209),
+    0px 3px 0px rgb(214, 209, 209),
+    0px 4px 0px rgb(226, 221, 221),
+    0px 5px 0px rgb(211, 204, 204),
+    0px 6px 0px rgb(231, 224, 224),
+    0px 4px 0px rgb(240, 239, 239);
+}
+#home p{
+    color:#fff;
+    font-size:18px;
+}
+#home .input-group{
+    width:40%;
+    height: 45px;
+    box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.signin{
+    background-color: #29f700 !important;
+    color: #fff !important;
+    box-shadow: 2px 2px 3px 4px rgba(0,0,0,.5);
+
+}
+/* about */
+#about{
+    background-image: linear-gradient(to right, #ea1d6f,#f70763 100%);
+}
+#about h1,h3{
+    font-weight:800;
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+}
+#about p{
+    color:aliceblue;
+}
+/* products */
+#product{
+    background-color:#f8f8f8 ;
+}
+#product h1{
+    font-size:50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#product img{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    width:250px;
+    height: 300px;
+    background-color: #f8f8f8 !important;
+    border:none !important;
+    box-shadow:15px 20px 20px rgba(0,0,0,.3),
+               inset 6px 6px 7px #fff;
+
+    border-radius: 20px !important;
+    align-items: center;
+    margin:20px 60px;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow:inset 10px 10px 10px rgba(0,0,0,.3),
+               inset -6px -6px 10px #fff;
+    transition: .2s;
+}
+/* Contact */
+#contact{
+    background-image:linear-gradient(to right,rgb(0, 0, 0) , rgb(77, 73, 73) );
+}
+#contact img{
+    height:90%;
+    width:80%;
+
+}
+.box{
+    width:80%;
+    margin-top: 10px;
+
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+#contact input{
+    margin:10px 0px;
+}
+#contact textarea{
+    margin:10px 0px;
+}
+#contact h1{
+    color:rgb(58, 235, 14);
+    font-size:50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+.cont{
+    width:100%;
+    height: 50px;
+    background: black;
+    margin-top: 0px;
+    text-align: center;
+    color:#fff;
+    padding:3px;
+
+}
